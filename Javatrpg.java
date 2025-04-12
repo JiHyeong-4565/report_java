@@ -32,7 +32,7 @@ public class Javatrpg {
 
 				if (hero_mp >= 10) {
 					hero_mp -= 10;
-					System.out.printf("%은 강타를 사용했다!\n", hero_name);
+					System.out.printf("%s은 강타를 사용했다!\n", hero_name);
 					sum = hero_Level * 10 + hero_power * 60;
 				} else {
 
